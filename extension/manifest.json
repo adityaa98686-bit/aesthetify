@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "Aesthetify",
+  "version": "1.0.0",
+  "description": "Make Spotify your atmosphere. Animated lyrics, seven mood palettes, immersive effects, and a matching player.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "Aesthetify",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://open.spotify.com/*"
+      ],
+      "js": [
+        "core.js",
+        "moods.js",
+        "visuals.js",
+        "native-lyrics.js",
+        "player.js",
+        "rain.js",
+        "search.js",
+        "effects.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "stage.css"
+      ],
+      "matches": [
+        "https://open.spotify.com/*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "short_name": "Aesthetify"
+}
