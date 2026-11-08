@@ -6,13 +6,13 @@
 
 **Turn Spotify Web into a world of lyrics, light, and motion.**
 
-[![Download ZIP](https://img.shields.io/badge/DOWNLOAD-Extension_ZIP-9ee6c1?style=for-the-badge)](https://github.com/adityaa98686-bit/aesthetify/releases/download/v1.0.0-beta.2/Aesthetify-1.0.0.zip)
+[![Download ZIP](https://img.shields.io/badge/DOWNLOAD-Extension_ZIP-9ee6c1?style=for-the-badge)](https://github.com/adityaa98686-bit/aesthetify/releases/download/v1.0.0-beta.3/Aesthetify-1.0.0.zip)
 [![License MIT](https://img.shields.io/badge/License-MIT-e7ca86?style=for-the-badge)](LICENSE)
 [![Checks](https://github.com/adityaa98686-bit/aesthetify/actions/workflows/ci.yml/badge.svg)](https://github.com/adityaa98686-bit/aesthetify/actions/workflows/ci.yml)
 
 **Made by ADITYA** · [LinkedIn](https://www.linkedin.com/in/aditya-jain-72170037b/) · [GitHub](https://github.com/adityaa98686-bit)
 
-[Download](https://github.com/adityaa98686-bit/aesthetify/releases/tag/v1.0.0-beta.2) · [Quick setup](#quick-setup) · [Report a problem](https://github.com/adityaa98686-bit/aesthetify/issues)
+[Download](https://github.com/adityaa98686-bit/aesthetify/releases/tag/v1.0.0-beta.3) · [Quick setup](#quick-setup) · [Report a problem](https://github.com/adityaa98686-bit/aesthetify/issues)
 
 </div>
 
@@ -24,7 +24,7 @@
 
 **Chrome desktop · no account or payment required for Aesthetify**
 
-1. **[Download Aesthetify-1.0.0.zip](https://github.com/adityaa98686-bit/aesthetify/releases/download/v1.0.0-beta.2/Aesthetify-1.0.0.zip)** and extract it. On macOS, double-click the ZIP. On Windows, right-click → **Extract All**.
+1. **[Download Aesthetify-1.0.0.zip](https://github.com/adityaa98686-bit/aesthetify/releases/download/v1.0.0-beta.3/Aesthetify-1.0.0.zip)** and extract it. On macOS, double-click the ZIP. On Windows, right-click → **Extract All**.
 2. Open **`chrome://extensions`** in Chrome and switch **Developer mode** on at the top right.
 3. Click **Load unpacked** → choose the extracted **Aesthetify-1.0.0** folder containing **`manifest.json`**. Keep this folder on your computer.
 4. Open or refresh **[Spotify Web](https://open.spotify.com)**, play a song, and click the Aesthetify extension icon → **Open / close immersive view**.
